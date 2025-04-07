@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/syles.css">
+    <title>Checkbox/radio type shii 😎 </title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <label>Enter your age:</label><br>
-    <input type="text" id="myText"><br>
-    <button type="submit" id="mySubmit">submit</button>
-    <p id="resultElement"></p>
-    <script src="/main.js" ></script>
+    <input type="checkbox" id="myCheckbox">
+    <label for="myCheckbox">Subscribe</label><br>
+
+    <input type="radio" id="visaBtn" name="card">
+    <label for="visaBtn" >Visa card</label><br>
+
+    <input type="radio" id="masterBtn" name="card">
+    <label for="masterBtn">Master card</label><br>
+
+    <input type="radio" id="mpesa" name="card">
+    <label for="mpesa">MPESA</label><br>
+    <button type="submit" id="mySubmit">Submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+    <script src="/main.js"></script>
 </body>
 </html>

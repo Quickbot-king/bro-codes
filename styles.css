@@ -1,26 +1,7 @@
-
-#myLabel{
-  display: block;
-  font-size: 200px;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
 }
-.myButtons{
-  text-align: center;
- 
-  
-}
-.buttons{
-  background-color: blue;
-  color: white;
-  padding: 10px 20px;
-  font-size: 1.5em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.25s;
-}
-
-.buttons:hover{
-  background-color: yellow;
+#mySubmit{
+  font-size: 1em;
 }
